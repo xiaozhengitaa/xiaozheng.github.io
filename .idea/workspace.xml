@@ -2,9 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2c110ee2-4611-40f9-bea3-cbbc5a260a2a" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/youdao/aicloud/translate/OcrDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/youdao/aicloud/translate/OcrDemo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/youdao/aicloud/translate/service/impl/AiServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/youdao/aicloud/translate/service/impl/AiServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/youdao/aicloud/translate/OcrDemo.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/youdao/aicloud/translate/OcrDemo.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/youdao/aicloud/translate/service/impl/AiServiceImpl$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/youdao/aicloud/translate/service/impl/AiServiceImpl$1.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/youdao/aicloud/translate/service/impl/AiServiceImpl$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/youdao/aicloud/translate/service/impl/AiServiceImpl$2.class" afterDir="false" />
@@ -125,7 +123,7 @@
       <option name="presentableId" value="Default" />
       <updated>1711424064161</updated>
       <workItem from="1711424065478" duration="2008000" />
-      <workItem from="1714355005533" duration="5918000" />
+      <workItem from="1714355005533" duration="6501000" />
     </task>
     <servers />
   </component>

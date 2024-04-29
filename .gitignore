@@ -7,3 +7,6 @@ target
 *.log
 logs
 *.DS_Store
+*.png
+*.webp
+*.jpg
