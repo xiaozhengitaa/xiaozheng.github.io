@@ -1,15 +1,32 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="2c110ee2-4611-40f9-bea3-cbbc5a260a2a" name="Default Changelist" comment="" />
+    <list default="true" id="2c110ee2-4611-40f9-bea3-cbbc5a260a2a" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/youdao/aicloud/translate/OcrDemo.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/youdao/aicloud/translate/OcrDemo.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/youdao/aicloud/translate/service/impl/AiServiceImpl$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/youdao/aicloud/translate/service/impl/AiServiceImpl$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/youdao/aicloud/translate/service/impl/AiServiceImpl$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/youdao/aicloud/translate/service/impl/AiServiceImpl$2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/youdao/aicloud/translate/service/impl/AiServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/youdao/aicloud/translate/service/impl/AiServiceImpl.class" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="CoverageViewManager">
+    <option name="myElementSize" value="241" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="UPDATE_TYPE" value="MERGE" />
   </component>
   <component name="MavenImportPreferences">
     <option name="generalSettings">
@@ -19,14 +36,35 @@
     </option>
   </component>
   <component name="ProjectId" id="2eD0uaYzQHCnCFF06YWpRSg20VH" />
+  <component name="ProjectLevelVcsManager">
+    <OptionsSetting value="false" id="Update" />
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="D:/github" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.2" />
+    <property name="restartRequiresConfirmation" value="false" />
     <property name="settings.editor.selected.configurable" value="MavenSettings" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.youdao.aicloud.translate" />
+      <recent name="com.youdao.aicloud.translate.controller" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\OcrDemo\xiaozheng.github.io\src\main" />
+      <recent name="E:\OcrDemo\xiaozheng.github.io\src\main\java\com\youdao\aicloud\translate" />
+      <recent name="E:\OcrDemo\xiaozheng.github.io\src\main\java\com\youdao\aicloud\translate\pojo" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -40,7 +78,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Spring Boot.AppStart">
     <configuration name="OcrDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.youdao.aicloud.translate.OcrDemo" />
       <module name="aicloud-openapi" />
@@ -54,8 +92,22 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="AppStart" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="aicloud-openapi" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.youdao.aicloud.translate.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.youdao.aicloud.translate.AppStart" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Spring Boot.AppStart" />
         <item itemvalue="Application.OcrDemo" />
       </list>
     </recent_temporary>
@@ -71,10 +123,27 @@
       <option name="presentableId" value="Default" />
       <updated>1711424064161</updated>
       <workItem from="1711424065478" duration="2008000" />
+      <workItem from="1714355005533" duration="6501000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/aicloud_openapi$AppStart.ic" NAME="AppStart Coverage Results" MODIFIED="1714359675250" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>com.youdao.aicloud.translate.*</FILTER>
+    </SUITE>
   </component>
 </project>
