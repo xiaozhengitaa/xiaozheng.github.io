@@ -1,36 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="2c110ee2-4611-40f9-bea3-cbbc5a260a2a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/youdao/aicloud/translate/AppStart.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/youdao/aicloud/translate/controller/AiController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/youdao/aicloud/translate/dto/AiDto.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/youdao/aicloud/translate/dto/BImMessage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/youdao/aicloud/translate/pojo/Ai.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/youdao/aicloud/translate/pojo/AiImage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/youdao/aicloud/translate/service/AiService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/youdao/aicloud/translate/service/impl/AiServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/image/1dc39dd9-88f3-4662-b4b2-59e2c4302745.webp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/image/40d106ec-dbc8-4303-bc2c-65cdbffa52ec.webp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/image/8e8f040b-dac9-4840-a06b-1949c76b0007.webp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/image/9cd4ce17-6227-41e5-8336-ee18828b22a1.webp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/image/d3379b69-9fbc-4209-b38d-ecfd009efb00.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/youdao/aicloud/translate/OcrDemo$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/youdao/aicloud/translate/OcrDemo$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/youdao/aicloud/translate/OcrDemo.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/youdao/aicloud/translate/OcrDemo.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/youdao/aicloud/translate/utils/AuthV3Util.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/youdao/aicloud/translate/utils/AuthV3Util.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/youdao/aicloud/translate/utils/AuthV4Util.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/youdao/aicloud/translate/utils/AuthV4Util.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/youdao/aicloud/translate/utils/FileUtil.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/youdao/aicloud/translate/utils/FileUtil.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/youdao/aicloud/translate/utils/HttpUtil.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/youdao/aicloud/translate/utils/HttpUtil.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/youdao/aicloud/translate/utils/WebSocketUtil.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/youdao/aicloud/translate/utils/WebSocketUtil.class" afterDir="false" />
-    </list>
+    <list default="true" id="2c110ee2-4611-40f9-bea3-cbbc5a260a2a" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CoverageViewManager">
+    <option name="myElementSize" value="241" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -136,7 +115,7 @@
       <option name="presentableId" value="Default" />
       <updated>1711424064161</updated>
       <workItem from="1711424065478" duration="2008000" />
-      <workItem from="1714355005533" duration="4528000" />
+      <workItem from="1714355005533" duration="4899000" />
     </task>
     <servers />
   </component>
