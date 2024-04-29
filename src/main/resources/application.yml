@@ -1,6 +1,6 @@
 ai:
   xiaozheng:
-          app_key: 3cd0bd1978d380ec
-          app_secret: L9u05yyWj1GTfCvvSleIibuXfoW3cFH9
+          app_key:
+          app_secret:
 server:
   port: 8088

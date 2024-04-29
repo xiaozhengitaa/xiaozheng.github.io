@@ -12,6 +12,7 @@ import com.youdao.aicloud.translate.service.AiService;
 import com.youdao.aicloud.translate.utils.AuthV3Util;
 import com.youdao.aicloud.translate.utils.FileUtil;
 import com.youdao.aicloud.translate.utils.HttpUtil;
+import org.springframework.beans.factory.annotation.Value;
 import org.springframework.stereotype.Service;
 import org.springframework.web.multipart.MultipartFile;
 
@@ -31,9 +32,11 @@ import java.util.UUID;
 @Service
 public class AiServiceImpl implements AiService {
 
-    private static final String APP_KEY = "4f55bce435a24054";     // 您的应用ID
-    private static final String APP_SECRET = "0QeAnVDegamLhDgducm9yOi6UEUGsWgx";  // 您的应用密钥
+    @Value("${ai.xiaozheng.app_key}")
+    private String APP_KEY;
 
+    @Value("${ai.xiaozheng.app_secret}")
+    private String APP_SECRET;
     /**
      * ai对话
      *
