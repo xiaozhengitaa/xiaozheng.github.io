@@ -16,8 +16,8 @@ import java.util.Map;
  */
 public class OcrDemo {
 
-    private static final String APP_KEY = "3cd0bd1978d380ec";     // 您的应用ID
-    private static final String APP_SECRET = "L9u05yyWj1GTfCvvSleIibuXfoW3cFH9";  // 您的应用密钥
+    private static final String APP_KEY = "";     // 您的应用ID
+    private static final String APP_SECRET = "";  // 您的应用密钥
 
     // 待识别图片路径, 例windows路径：PATH = "C:\\youdao\\media.jpg";
     private static final String PATH = "C:\\Users\\Administrator\\Pictures\\Saved Pictures\\aaa.webp";

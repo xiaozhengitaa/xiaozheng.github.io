@@ -1,0 +1,13 @@
+*.classpath
+*.project
+*.iml
+*.factorypath
+target
+.idea/
+*.log
+logs
+*.DS_Store
+*.png
+*.webp
+*.jpg
+*.xml
