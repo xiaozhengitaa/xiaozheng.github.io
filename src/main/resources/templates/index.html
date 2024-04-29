@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<div></div>
+<div id="userConversation">原对话：</div>
+<div id="aiConversation">翻译：</div>
+
+<div>
+    <input type="text" id="wordInput" placeholder="要翻译的文本">
+    <input type="text" id="iInput" placeholder="目标语言">
+    <input type="text" id="oInput" placeholder="原语言">
+    <button id="translateButton">翻译</button>
+</div>
+
+<input type="file" id="imageInput" accept="image/*"> <!-- 添加图片上传的input -->
+<div>
+    识别的文字：<input type="textarea" id="imageText" placeholder="识别的文字">
+</div>
+<script>
+    document.getElementById('translateButton').addEventListener('click', function() {
+        // 获取用户输入的值
+        const word = document.getElementById('wordInput').value;
+        const i = document.getElementById('iInput').value;
+        const o = document.getElementById('oInput').value;
+
+        // 创建一个AiDto对象
+        const aiDto = {
+            word: word,
+            i: i,
+            o: o
+        };
+
+        // 发送POST请求到服务器
+        fetch('http://localhost:8088/ai/word/', {
+            method: 'POST',
+            headers: {
+                'Content-Type': 'application/json',
+            },
+            body: JSON.stringify(aiDto),
+        })
+            .then(response => response.json())
+    .then(data => {
+            // 获取翻译结果
+            const userConversation = data.userConversation;
+        const aiConversation = data.aiConversation;
+        // 将结果渲染到页面上
+        document.getElementById('userConversation').innerText = userConversation;
+        document.getElementById('aiConversation').innerText = aiConversation;
+    })
+    .catch((error) => {
+            console.error('Error:', error);
+    });
+    });
+
+    // 添加事件监听器来更新aiDto对象
+    document.getElementById('wordInput').addEventListener('input', function() {
+        aiDto.word = this.value;
+    });
+
+    document.getElementById('iInput').addEventListener('input', function() {
+        aiDto.i = this.value;
+    });
+
+    document.getElementById('oInput').addEventListener('input', function() {
+        aiDto.o = this.value;
+    });
+
+    // 监听图片上传事件
+    document.getElementById('imageInput').addEventListener('change', function() {
+        const file = this.files[0];
+        const formData = new FormData();
+        formData.append('file', file);
+
+        fetch('http://localhost:8088/ai/image/', {
+            method: 'POST',
+            body: formData,
+        })
+            .then(response => response.json())
+    .then(data => {
+            // 将识别的文本显示在输入框中
+            document.getElementById('imageText').value = data.text;
+    })
+    .catch(error => {
+            console.error('Error:', error);
+    });
+    });
+</script>
+</body>
+</html>
